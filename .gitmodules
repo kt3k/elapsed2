@@ -1,0 +1,6 @@
+[submodule "ylep"]
+	path = ylep
+	url = git@github.com:kt3k/ylep.git
+[submodule "divjs"]
+	path = divjs
+	url = git@github.com:kt3k/divjs.git
