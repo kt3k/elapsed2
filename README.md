@@ -1,7 +1,7 @@
 elapsed2
 ========
 
-Readability improvement of nested `setTimeout`s.
+Readability improvement of nested use of `setTimeout`.
 
 Usage
 -----
