@@ -10,16 +10,16 @@ this.elapsed = window.Transitionable.branch(function (elapsedPrototype, parent, 
     var Chainable = decorators.Chainable;
 
     elapsedPrototype.constructor = function (n) {
+        this.initTransition();
         this.elapsed(n);
     };
 
-    elapsedPrototype.elapsed = function () {
+    elapsedPrototype.elapsed = function (n) {
         this
         .transition()
         .duration(n)
         .transitionCommit();
     }
-    .E(Transitionable)
     .E(Chainable);
 
     elapsedPrototype.then = function (callback) {
